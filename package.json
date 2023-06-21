@@ -6,10 +6,11 @@
   "devDependencies": {
     "vuepress": "^1.9.9"
   },
-
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "@vuepress-reco/theme-cli": "^1.0.8"
   }
-
 }
