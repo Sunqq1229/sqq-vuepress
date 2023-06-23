@@ -11,7 +11,7 @@ jobs:
       - name: install nodejs
         uses: actions/setup-node@v2.5.1
         with:
-          node-versions: "16.X"
+          node-versions: "14.X"
         
         
       - name: install && build
